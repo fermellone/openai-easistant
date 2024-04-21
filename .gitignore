@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Dependency directories
+/pnpm-debug.log
+/pnpm-lock.yaml
+/.pnp
+.pnp.js
+
+# Testing
+/coverage/
+
+# Build output
+/dist/
+/build/
+/out/
+
+# Environment variables
+.env
+.env.development
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
