@@ -38,6 +38,7 @@ const assistantOptions: OpenAI.Beta.Assistants.AssistantCreateParams = {
 
 const assistant = new Assistant({
   assistantId: 'asst_eXxBGOVcIZ8o4fuJcscn4y6d',
+  threadId: 'thread_ewM6Kl5Vc4JuuO2x5fO8WCis',
   client,
   options: assistantOptions,
   functions: {
@@ -49,7 +50,7 @@ const assistant = new Assistant({
 });
 
 assistant
-  .getCompletion('Sum 10 and 200')
+  .getCompletion('Sum 10 and 350')
   .then((completion) => {
     console.log('completion', completion);
   })
